@@ -1,0 +1,118 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "French Macaron",
+        "price": 5,
+        "product":"sweet",
+        "image": { "fields": { "file": { "url": "./css/pics/product-1.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Gummies",
+        "price": 10,
+        "product": "sweet",
+        "image": { "fields": { "file": { "url": "./css/pics/product-2.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Chocolate Bar",
+        "price": 15,
+        "product": "sweet",
+        "image": { "fields": { "file": { "url": "./css/pics/product-3.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Chocolate Cake",
+        "price": 5,
+        "product": "cake",
+        "image": { "fields": { "file": { "url": "./css/pics/product-4.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Vanilla Cake",
+        "price": 10,
+        "product": "cake",
+        "image": { "fields": { "file": { "url": "./css/pics/product-5.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Strawberry Cake",
+        "price": 15,
+        "product": "cake",
+        "image": { "fields": { "file": { "url": "./css/pics/product-6.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Peanut Cupcake",
+        "price": 5,
+        "product": "cupcake",
+        "image": { "fields": { "file": { "url": "./css/pics/product-7.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Caramel Cupcake",
+        "price": 10,
+        "product": "cupcake",
+        "image": { "fields": { "file": { "url": "./css/pics/product-8.jpeg" } } }
+      }
+    },
+    {
+      "sys": {
+        "id": "9"},
+      "fields": {
+        "title": "Blueberry Cupcake",
+        "price": 15,
+        "product": "cupcake",
+        "image": {"fields": {"file": {"url": "./css/pics/product-9.jpeg"}}}
+      }
+    },
+    {
+      "sys": {
+        "id": "10"},
+      "fields": {
+        "title": "Basic Doughnut",
+        "price": 5,
+        "product": "doughnut",
+        "image": {"fields": {"file": {"url": "./css/pics/product-10.jpeg"}}}
+      }
+    },
+    {
+      "sys": {
+        "id": "11"
+      },
+      "fields": {
+        "title": "Glazed Doughnut",
+        "price": 10,
+        "product": "doughnut",
+        "image": {"fields": {"file": {"url": "./css/pics/product-11.jpeg"}}}
+      }
+    },
+    {
+      "sys": {
+        "id": "12"
+      },
+      "fields": {
+        "title": "Cute Doughnut",
+        "price": 15,
+        "product": "doughnut",
+        "image": {"fields": {"file": {"url": "./css/pics/product-12.jpeg"}}}
+      }
+    }
+  ]
+}

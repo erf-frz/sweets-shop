@@ -10,13 +10,14 @@
 }
 
 body{
-    font-size: 20px;
+    font-size: 18px;
+    width:100vw;
 }
 
 .row{
     max-width: 1140px;
-    margin: 1% 6%;
-    
+    margin: 2vw 6vh;
+    overflow: hidden;
 }
 
 .btn{
@@ -38,7 +39,7 @@ body{
 header{
     background:linear-gradient(rgba(250, 222, 131, 0.39),rgba(250, 222, 131, 0.39)), url(pics/hero.jpeg);
     background-size: cover;
-    background-repeat: no-repeat;
+    width: 100vw;
     height: 100vh;
     background-attachment: fixed;
     position: relative;
@@ -49,7 +50,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width:100%;
+    width:100vw;
     height:80px;
     
 }
@@ -81,12 +82,11 @@ nav{
 }
 
 .logo{
-    margin-left: -80px;
+    margin-left: .1vw;
 }
 
 .phone-num{
-    margin-right: -110px;
-    
+    margin-right: 14.3vw;
 }
 
 .cart{
@@ -95,9 +95,9 @@ nav{
     border:2px solid black;
     border-radius: 3px;
     font-size: 90%;
-    margin-right: -80px;
     cursor: pointer;
     transition: all 0.3s;
+    margin-right: 1vw;
 }
 
 .cart:hover{
@@ -135,23 +135,42 @@ nav{
     margin-top: 20px;
 }
 
+/*media queries*/
+@media only screen and (max-width:762px){
+   header{font-size: 75%;}
+
+    .nav_direction li{
+    margin-left: 1.4vw;
+    font-size: 100%
+    }
+
+    .cart{
+    width:100px;
+    height:50px;
+    border:2px solid black;
+    margin-right: 2vw;
+}
+
+    /* .logo{margin-left:2vw;} */
+}
+
 /**********************Section About us***************************/
 .aboutUS{
-    height:80vh;
-    margin-top: 100px;
-    margin-bottom: -50px;
+    height:100vh;
+    padding-top: 12.5vh;
+   
 }
 
 .aboutUS .row{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap:12% ;
-    grid-row-gap: 50px;
+    grid-row-gap: 4.40vw;
 }
 
 .column-first{
     grid-column: 1/2;
 }
+
 
 .column-second{
     grid-column: 2/3;
@@ -165,15 +184,16 @@ nav{
 }
 
 .sweet{
-    width:550px;
+    width:40.5vw;
+    height:52.4vh;
     margin-top: 20px;
     margin-left: 30px;
 }
 
 .sweet-border{
-    width:566px;
-    height:430px;
-    border:8px solid rgb(250, 212, 41);
+    width:41.7vw;
+    height:54.7vh;
+    border: 5.5px solid rgb(250, 212, 41);
     z-index: -1;
     position: absolute;
     top:-10px;
@@ -188,9 +208,38 @@ nav{
 }
 
 
+/*media queries*/
+@media only screen and (max-width:1127px){
+    .aboutUS{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutUS .row{
+       display:block;
+       
+       }
+    .sweet{
+        width:372.4px;
+        height:344.4px;
+    }
+    
+  .sweet-border{
+    width:388px;
+    height:360px;
+    border: 5.5px solid rgb(250, 212, 41);
+}
+
+    .column-second{
+         margin-top: 30px;
+    }
+}
+
+
 /********************** Section Store ***************************/
 
 .store{
+    min-height:100vh;
     background-color: rgb(235, 235, 235);
     padding-top: 50px;
     position: relative;
@@ -208,39 +257,18 @@ nav{
 .buttons{
     width: 60%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin-top: 40px;
 }
 
-.all{
-    height:40px;
-    width: 50px;
-    font-size: 90%;
-}
-
-.cakes{
-     height:40px;
-     width: 90px;
-     font-size: 90%;
-}
-
-.cupcakes{
-     height:40px;
-     width: 120px;
-     font-size: 90%;
-}
-
-.sweets{
-    width: 100px;
-     height:40px;
-     font-size: 90%;
-}
-
-.doughnuts{
-    width: 140px;
+.store-btn{
     height:40px;
     font-size: 90%;
+    padding-right:2%;
+    padding-left: 2%;
 }
+
 
 .search_item{
     width: 100%;
@@ -355,6 +383,16 @@ nav{
     font-size: 110%;
 }
 
+/*media queries*/
+@media only screen and (max-width:1029px){
+
+    .store-btn{
+    height:3.9vh;
+    font-size: 1.4vw;
+    margin-right: 5%;
+}
+}
+
 /********************** Section gallery***************************/
 
 
@@ -399,6 +437,13 @@ nav{
 .close:hover{
     color:black;
     background-color: #af4d6b;
+}
+
+@media only screen and (max-width:930px){
+    .gallery_image{
+    width:450px;
+    height:325px;
+}
 }
 
 

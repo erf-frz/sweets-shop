@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css"> 
     <script src="https://kit.fontawesome.com/96174ace5d.js" crossorigin="anonymous"></script>
+    <script src="./jquery-3.6.0.js"></script>
     <title>Sweet shop</title>
 </head>
 
@@ -24,7 +25,7 @@
       </nav>
       <div class="row intro">
         <h1>Welcome to <span class="bold">Grandma's</span></h1>
-        <button class="explore btn">Explore</button> 
+        <button class="explore btn js--scroll-to-store">Explore</button> 
       </div>
 
       <!--cart-->
@@ -86,15 +87,15 @@
 
     </section>
 
-    <section class="store">
+    <section class="store js--section-store">
       <div class="row store-row store_manager">
           <h2>Our <span class="bold">Store</span></h2>
           <div class="buttons">
-            <button class="all btn">All</button>
-            <button class="cakes btn">Cakes</button>
-            <button class="cupcakes btn">Cupcakes</button>
-            <button class="sweets btn">Sweets</button>
-            <button class="doughnuts btn">Doughnuts</button>
+            <button class="all store-btn btn">All</button>
+            <button class="cakes store-btn btn">Cakes</button>
+            <button class="cupcakes store-btn btn">Cupcakes</button>
+            <button class="sweets store-btn btn">Sweets</button>
+            <button class="doughnuts store-btn btn">Doughnuts</button>
           </div>
           <div class="search_item">
             <button class="search"><i class="fas fa-search"></i></button>
@@ -129,7 +130,7 @@
     
     
   <script type="text/javascript" src="js/index.js"></script>
- 
+  <script src="js/queries.js" ></script>
 </body>
 </html>
 
